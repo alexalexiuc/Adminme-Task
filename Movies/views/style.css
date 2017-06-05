@@ -1,0 +1,70 @@
+
+
+body {
+  background-color: #BDBDBD;
+  padding-top: 30px;
+  font: 16px "Lucida Grande";
+}
+
+a {
+  color: #e60000;
+}
+
+section {
+  display: inline-block;
+  vertical-align:top;
+  text-align: left;
+  padding: 8px;
+  width: 300px;
+  min-height: 380px;
+  border-style: groove;
+  border-radius:20px;
+  background: #009688;
+}
+
+
+section h3 {
+  border-bottom: 1px dotted black;
+}
+.allsection{
+  width: 100%;
+  text-align: center;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  padding: 2px 0;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+button {
+  margin-top: 8px;
+  border: none;
+  box-shadow: 1px 1px 1px #34495e;
+  background: #ecf0f1;
+}
+
+button:hover {
+  background:  #a3a3c2;
+}
+.item {
+  border-bottom: 5px groove;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.logo{
+	height:40px;
+  width: 100%;
+  text-align: center;
+	font-size: 60px;
+	color: #3d3d3d;
+	letter-spacing: 10px;
+	line-height: 10px;
+	text-shadow: 7px 7px 10px rgba(0 ,0 ,0,0.5);
+}
